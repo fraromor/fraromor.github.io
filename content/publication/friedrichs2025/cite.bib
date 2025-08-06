@@ -1,0 +1,13 @@
+@article{ROMOR2025113915,
+title = {Friedrichs' systems discretized with the DGM: domain decomposable model order reduction and Graph Neural Networks approximating vanishing viscosity solutions},
+journal = {Journal of Computational Physics},
+volume = {531},
+pages = {113915},
+year = {2025},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2025.113915},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999125001986},
+author = {Francesco Romor and Davide Torlo and Gianluigi Rozza},
+keywords = {Friedrichs' systems, Model order reduction, Graph neural networks},
+abstract = {Friedrichs' systems (FS) are symmetric positive linear systems of first-order partial differential equations (PDEs), which provide a unified framework for describing various elliptic, parabolic and hyperbolic semi-linear PDEs such as the linearized Euler equations of gas dynamics, the equations of compressible linear elasticity and the Dirac-Klein-Gordon system. FS were studied to approximate PDEs of mixed elliptic and hyperbolic type in the same domain. For this and other reasons, the discontinuous Galerkin method (DGM) represents the most common and versatile choice of approximation space for FS in the literature. We implement a distributed memory solver for stationary FS in deal.II. Our focus is model order reduction. Since FS model hyperbolic PDEs, they often suffer from a slow Kolmogorov n-width decay. We develop and combine two approaches to tackle this problem in the context of large-scale applications. The first is domain decomposable reduced-order models (DD-ROMs). We will show that the DGM offers a natural formulation of DD-ROMs, in particular regarding interface penalties, compared to the continuous finite element method. We also develop new repartitioning strategies to obtain more efficient local approximations of the solution manifold. The second approach involves shallow graph neural networks used to infer the limit of a succession of projection-based linear ROMs corresponding to lower viscosity constants: the heuristic behind concerns the development of a multi-fidelity super-resolution paradigm to mimic the mathematical convergence to vanishing viscosity solutions while exploiting to the most interpretable and certified projection-based DD-ROMs.}
+}

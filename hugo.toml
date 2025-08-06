@@ -1,0 +1,33 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "CV Francesco Romor"
+theme = "academic-cv"
+
+[params]
+  author = "Francesco Romor"
+  description = "PhD Mathematical Analysis Modelling and Applications | Computational Fluid Dynamics | Scientific Machine Learning"
+  github = "https://github.com/fraromor"
+  linkedin = "https://www.linkedin.com/in/francesco-romor-b0000a187/"
+  email = "francesco.romor@gmail.com"
+
+[build]
+  command = "hugo --gc --minify -b $URL && npx pagefind --source 'public'"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.136.5"
+  HUGO_ENABLEGITINFO = "true"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
+
+[context.branch-deploy]
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+  [plugins.inputs]
+    debug = true

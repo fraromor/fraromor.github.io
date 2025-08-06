@@ -1,0 +1,13 @@
+@article{ROMOR2025113729,
+title = {Explicable hyper-reduced order models on nonlinearly approximated solution manifolds of compressible and incompressible Navier-Stokes equations},
+journal = {Journal of Computational Physics},
+volume = {524},
+pages = {113729},
+year = {2025},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2025.113729},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999125000129},
+author = {Francesco Romor and Giovanni Stabile and Gianluigi Rozza},
+keywords = {Nonlinear model order reduction, Scientific machine learning, Computational fluid dynamics},
+abstract = {A slow decaying Kolmogorov n-width of the solution manifold of a parametric partial differential equation precludes the realization of efficient linear projection-based reduced-order models. This is due to the high dimensionality of the reduced space needed to approximate with sufficient accuracy the solution manifold. To solve this problem, neural networks, in the form of different architectures, have been employed to perform accurate nonlinear regressions of the solution manifolds. However, the majority of the implementations are non-intrusive black-box surrogate models and only a part of them perform dimension reduction from the number of degrees of freedom of the discretized parametric models to a latent dimension. We present a new intrusive and explicable methodology for reduced-order modeling that employs neural networks for the solution manifold approximation but that does not discard the physical and numerical models underneath in the predictive/online stage. We will focus on autoencoders used to compress further the dimensionality of linear approximants of solution manifolds, achieving in the end a nonlinear dimension reduction. After having obtained an accurate nonlinear approximant, we seek for the solutions on the latent manifold with the residual-based nonlinear least-squares Petrov-Galerkin method, opportunely hyper-reduced in order to be independent of the number of degrees of freedom. New adaptive hyper-reduction strategies are developed along with the employment of local nonlinear approximants. We test our methodology on two nonlinear time dependent parametric benchmarks involving a supersonic flow past a NACA airfoil with changing Mach number and an incompressible turbulent flow around the Ahmed body with changing slant angle.}
+}
