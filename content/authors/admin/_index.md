@@ -51,8 +51,9 @@ interests:
   - Scientific machine learning
   - Model order reduction
   - Uncertainty quantification
+  - High-performance computing
+  - Computational optimal transport
   - Cardiovascular modelling
-  - Optimal transport
 
 education:
   - area: PhD Mathematical analysis, modelling and applications
