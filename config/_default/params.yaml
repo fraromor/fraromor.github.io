@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: ''
-    twitter: 'GetResearchDev'
+    org_name: 'Weierstrass Institute'
+    description: 'Francesco Romor, researcher in computational modeling'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -23,7 +23,7 @@ marketing:
     fathom: ''
     pirsch: ''
   verification:
-    google: ''
+    google: 'lj0mHQDM34qk-49kFjRjp-Qd1XEJ1cuQP5yCE-xHjNs'
     baidu: ''
   logo:
     text: "FR"  # Replace the "H" with your initials
