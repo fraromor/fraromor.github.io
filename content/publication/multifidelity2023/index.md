@@ -2,7 +2,7 @@
 title: "Multi-fidelity data fusion through parameter space reduction with applications to automotive engineering"
 authors:
 - admin
-- Davide Torlo
+- Marco Tezzele
 - Gianluigi Rozza
 # author_notes:
 # - "Equal contribution"
@@ -29,7 +29,7 @@ abstract: "Multi-fidelity models are of great importance due to their capability
 
 # tags:
 # - Source Themes
-# featured: false
+featured: true
 
 links:
 - name: journal
@@ -45,10 +45,11 @@ url_pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1002/nme.7349
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-#   focal_point: ""
-#   preview_only: false
+image:
+  caption: ''
+  focal_point: "Center"
+  preview_only: false
+  placement: 2
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

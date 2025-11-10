@@ -1,5 +1,5 @@
 ---
-title: "Explicable hyper-reduced order models on nonlinearly approximated solution manifolds of compressible and incompressible Navier-Stokes equations"
+title: "Explicable hyper-reduced order models with autoencoders"
 authors:
 - admin
 - Giovanni Stabile
@@ -29,7 +29,7 @@ abstract: "A slow decaying Kolmogorov n-width of the solution manifold of a para
 
 # tags:
 # - Source Themes
-# featured: false
+featured: true
 
 links:
 - name: journal
@@ -45,10 +45,11 @@ url_pdf: https://arxiv.org/pdf/2308.03396
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-#   focal_point: ""
-#   preview_only: false
+image:
+  caption: ''
+  focal_point: "Center"
+  preview_only: false
+  placement: 2
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -64,13 +65,3 @@ url_pdf: https://arxiv.org/pdf/2308.03396
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
-<!-- 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

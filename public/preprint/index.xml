@@ -5,18 +5,18 @@
     <link>http://localhost:1313/preprint/</link>
       <atom:link href="http://localhost:1313/preprint/index.xml" rel="self" type="application/rss+xml" />
     <description>Preprints</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_c73d8a3c14818f2e.png</url>
+      <url>http://localhost:1313/media/icon_hu_def24352f5c48375.png</url>
       <title>Preprints</title>
       <link>http://localhost:1313/preprint/</link>
     </image>
     
     <item>
-      <title>Efficient Numerical Strategies for Entropy-Regularized Semi-Discrete Optimal Transport</title>
-      <link>http://localhost:1313/preprint/rsot2025/</link>
-      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/preprint/rsot2025/</guid>
+      <title>LDDMM stochastic interpolants: an application to domain uncertainty quantification in hemodynamics</title>
+      <link>http://localhost:1313/preprint/flow2025/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/preprint/flow2025/</guid>
       <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 
 
@@ -40,10 +40,10 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     </item>
     
     <item>
-      <title>Data assimilation performed with robust shape registration and graph neural networks: application to aortic coarctation</title>
-      <link>http://localhost:1313/preprint/aorta2025/</link>
-      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/preprint/aorta2025/</guid>
+      <title>ROM for Viscous, Incompressible Flow in Polygons -- exponential n-width bounds and convergence rate</title>
+      <link>http://localhost:1313/preprint/schwab2025/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/preprint/schwab2025/</guid>
       <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 
 

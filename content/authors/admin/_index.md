@@ -24,14 +24,14 @@ role: Postdoctoral researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Weierstraß Institute
+  - name: Weierstraß Institut
     url: https://www.wias-berlin.de/?lang=0
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: mailto:francesco.romor@gmail.com
+    url: mailto:francesco.romor@wias-berlin.de
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
@@ -47,13 +47,9 @@ profiles:
     url: https://orcid.org/0000-0002-9422-0746
 
 interests:
-  - Numerical analysis of PDEs
-  - Scientific machine learning
-  - Model order reduction
-  - Uncertainty quantification
+  - Machine learning
+  - Numerical modelling
   - High-performance computing
-  - Computational optimal transport
-  - Cardiovascular modelling
 
 education:
   - area: PhD Mathematical analysis, modelling and applications
@@ -79,7 +75,7 @@ education:
       Thesis "Geodesics on Lie Groups with invariant Metrics".
 work:
   - position: Postdoctoral researcher
-    company_name: Weierstraß Institute
+    company_name: Weierstraß Institut
     company_url: ''
     company_logo: ''
     date_start: 2023-11-01
@@ -162,4 +158,8 @@ work:
 
 ## About Me
 
-Francesco Romor is a Postdoctoral Researcher at the Weierstrass Institute, specializing in numerical modelling and scientific machine learning. His research spans numerical analysis, scientific computing, computational fluid dynamics, optimal transport, uncertainty quantification, and reduced-order modelling. Combining mathematical modelling, high-performance computing, and machine learning, his work aims to develop efficient, data-driven solutions for complex scientific challenges.
+I am a computational scientist with hands-on experience in high-performance computing, scientific machine learning and numerical simulations for real-world engineering problems. I develop and deploy scalable numerical solvers (C++, MPI, GPU via Kokkos/CUDA) and AI/machine learning/data-driven models (surrogate models, generative models). My work targets concrete applications, most recently patient-specific aortic blood flows and data assimilation from medical images.
+
+<!-- Applied mathematician with hands-on experience in high-performance computing, scientific machine learning and physics-based simulations for real-world engineering problems. I develop and deploy scalable numerical solvers (C++, MPI, GPU via Kokkos/CUDA) and AI/machine learning/data-driven pipelines that operate on production-grade codebases such as deal.II and OpenFOAM. My work targets concrete applications, most notably patient-specific aortic blood flows and data assimilation from medical images. I focus on identifying which techniques from the scientific literature actually transfer to real problems beyond academic benchmarks: reduced-order models, machine learning architectures, and numerical solvers that remain robust and efficient at deployment scale. -->
+
+<!-- Francesco Romor is a Postdoctoral Researcher at the Weierstrass Institut, specializing in numerical modelling and scientific machine learning. His research spans numerical analysis, scientific computing, computational fluid dynamics, optimal transport, uncertainty quantification, and reduced-order modelling. Combining mathematical modelling, high-performance computing, and machine learning, his work aims to develop efficient, data-driven solutions for complex scientific challenges. -->

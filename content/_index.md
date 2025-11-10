@@ -16,8 +16,11 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
+        text: Download Academic CV
         url: uploads/cv_francesco_romor.pdf
+      button2:
+        text: Download CV
+        url: uploads/cv.pdf
     design:
       css_class: dark
       background:
@@ -38,17 +41,19 @@ sections:
         
   #   design:
   #     columns: '1'
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+          - preprint
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+      fill_image: false
   - block: collection
     content:
       title: Preprints
