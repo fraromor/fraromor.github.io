@@ -1,11 +1,13 @@
 ---
-title: "LDDMM stochastic interpolants/diffusion models/flow matching: an application to domain uncertainty quantification in hemodynamics"
+title: "Inverse domain uncertainty quantification in hemodynamics: sampling virtual patient cohorts under constraints"
 authors:
 - admin
-- Sarah Katz
-- Jia-Jie Zhu
+- Jose Rodrigo Rojo-Garcia
+- André-Alexander Zepernick
+- Ana Djurdjevac
 - Alfonso Caiazzo
-date: "2026-03-30T00:00:00Z"
+short_title: "Sampling virtual patient cohorts under constraints with generative priors"
+date: "2026-10-20T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -20,7 +22,7 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: "We introduce a novel conditional stochastic interpolant framework for generative modeling of three-dimensional shapes. The method builds on a recent LDDMM-based registration approach to learn the conditional drift between geometries. By leveraging the resulting pull-back and push-forward operators, we extend this formulation beyond standard Cartesian grids to complex shapes and random variables defined on distinct domains. We present an application in the context of cardiovascular simulations, where aortic shapes are generated from an initial cohort of patients. The conditioning variable is a latent geometric representation defined by a set of centerline points and the radii of the corresponding inscribed spheres. This methodology facilitates both data augmentation for three-dimensional biomedical shapes, and the generation of random perturbations of controlled magnitude for a given shape. These capabilities are essential for quantifying the impact of domain uncertainties arising from medical image segmentation on the estimation of relevant biomarkers."
+abstract: "We consider the following inverse domain uncertainty quantification problem: given a prescribed value or measurement of a hemodynamic biomarker, characterize the distribution of vascular geometries compatible with it. The problem is formulated as a Bayesian inverse problem in which a high-dimensional latent parameter encodes the cardiovascular shape and accounts for inter-patient variability. The parameter-to-observable map composes a conditional LDDMM stochastic interpolant generating the aortic surface with a high-performance numerical finite element solver for the unsteady incompressible Navier--Stokes equations, from which biomarkers of interest are evaluated. The map is nonlinear, high-dimensional and computationally expensive. To address the problem, we compare three ensemble strategies: ensemble adjusted Kalman inversion (EAKI), adaptive Bayesian updating with structural reliability (aBUS), and a Wasserstein--Fisher--Rao (WFR) sequential Monte Carlo scheme. The first two approaches are derivative-free. For the third method, we introduce a novel differentiable flow-matching surrogate that reduces the cost of a single forward map evaluation at the price of a distribution shift depending on the training distribution used for the surrogate. We apply the framework to the generation of virtual patient cohorts matching prescribed pressure drops along aortic geometries affected by coarctation, and we validate and compare the three methods on synthetic data."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -30,11 +32,12 @@ abstract: "We introduce a novel conditional stochastic interpolant framework for
 # - Cardiovascular modelling
 
 featured: true
+weight: 1
 
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2603.28324
-url_pdf: https://arxiv.org/pdf/2603.28324
+  url: https://arxiv.org/abs/2610.27869
+url_pdf: https://arxiv.org/pdf/2610.27869
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'

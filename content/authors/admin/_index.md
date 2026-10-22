@@ -47,7 +47,7 @@ profiles:
     url: https://orcid.org/0000-0002-9422-0746
 
 interests:
-  - Machine learning
+  - Artificial intelligence
   - Numerical modelling
   - High-performance computing
 
@@ -69,7 +69,7 @@ education:
       Thesis "Reduction in Parameter Space for Problems approximated by the Discontinuous-Galerkin Method in Computational Fluid Dynamics".
   - area: BSc Mathematics
     institution: University of Triest
-    date_start: 2013-09-01
+    date_start: 2014-09-01
     date_end: 2017-09-01
     summary: |
       Thesis "Geodesics on Lie Groups with invariant Metrics".

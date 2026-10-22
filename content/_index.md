@@ -45,6 +45,9 @@ sections:
     id: featured
     content:
       title: Featured Publications
+      count: 0
+      sort_by: Weight
+      sort_ascending: true
       filters:
         folders:
           - publication
@@ -54,6 +57,7 @@ sections:
       view: article-grid
       columns: 2
       fill_image: false
+      wide: true
   - block: collection
     content:
       title: Preprints
