@@ -31,6 +31,7 @@ abstract: "Image-based, patient-specific modelling of hemodynamics can improve d
 # - Cardiovascular modelling
 
 featured: true
+weight: 5
 
 links:
 - name: journal

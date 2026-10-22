@@ -30,6 +30,7 @@ abstract: "Multi-fidelity models are of great importance due to their capability
 # tags:
 # - Source Themes
 featured: true
+weight: 6
 
 links:
 - name: journal

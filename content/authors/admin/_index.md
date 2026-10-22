@@ -47,7 +47,7 @@ profiles:
     url: https://orcid.org/0000-0002-9422-0746
 
 interests:
-  - Machine learning
+  - Artificial intelligence
   - Numerical modelling
   - High-performance computing
 

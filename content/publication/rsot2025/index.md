@@ -29,6 +29,7 @@ abstract: "Semi-discrete optimal transport (SOT), which maps a continuous probab
 # - Cardiovascular modelling
 
 featured: true
+weight: 2
 
 links:
 - name: arXiv

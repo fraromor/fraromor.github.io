@@ -1,0 +1,14 @@
+{{ $columns := .config.columns | default 2 }}
+{{ $len := .config.len | default 2 }}
+{{/* NOTE: dynamic `md:grid-cols-{{$columns}}` class requires Tailwind exception */}}
+{{/* `design.wide: true` widens the grid on large screens, up to 3 then 4 columns (scoped CSS: the precompiled Tailwind lacks these classes) */}}
+{{ $wide := false }}
+{{ if reflect.IsMap .page }}{{ with index .page "design" }}{{ $wide = .wide }}{{ end }}{{ end }}
+{{ if $wide }}
+<style>
+  @media (min-width: 1280px) { .grid-wide-container { max-width: 1400px !important; } .grid-wide { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; } }
+  @media (min-width: 1700px) { .grid-wide-container { max-width: 1800px !important; } .grid-wide { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; } }
+</style>
+{{ end }}
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 {{ if eq $len 1 }}max-w-[500px] justify-center{{else}}max-w-screen-lg {{end}}{{ if $wide }} grid-wide-container{{ end }}">
+  <div class="grid gap-10 md:grid-cols-{{$columns}} lg:gap-10{{ if $wide }} grid-wide{{ end }}">

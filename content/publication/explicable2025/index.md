@@ -30,6 +30,7 @@ abstract: "A slow decaying Kolmogorov n-width of the solution manifold of a para
 # tags:
 # - Source Themes
 featured: true
+weight: 4
 
 links:
 - name: journal
